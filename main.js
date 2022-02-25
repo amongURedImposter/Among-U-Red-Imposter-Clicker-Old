@@ -13488,7 +13488,7 @@ Game.Launch=function()
 		if (!Game.OnAscend)
 		{
 			
-			var unit=(Math.round(Game.cookiesd)==1?' cookie':' crewmates killed');
+			var unit=(Math.round(Game.cookiesd)==1?' crewmate killed':' crewmates killed');
 			var str=Beautify(Math.round(Game.cookiesd));
 			if (Game.cookiesd>=1000000)//dirty padding
 			{
